@@ -11,5 +11,13 @@
       "All Strikes and Defends allies play this turn Transfer to you. They cost 0 for you this turn.",
       "All Strikes and Defends allies play this turn Transfer to you and Upgrade. They cost 0 for you this turn."
     ]
+  },
+  "${modID}:FrontierJusticePower": {
+    "NAME": "FrontierJusticePower",
+    "DESCRIPTIONS": [
+      "Whenever a debuff is applied to you, apply 1 Artifact to a random ally.",
+      "Whenever a debuff is applied to you, apply 1 Artifact to a random ally ",
+      " times."
+    ]
   }
 }

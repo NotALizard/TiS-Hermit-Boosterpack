@@ -43,5 +43,9 @@
     "NAME": "Barfight",
     "DESCRIPTION": "Apply !M! hermit:Bruise to ALL enemies and players in the room.",
     "UPGRADE_DESCRIPTION": "Apply !M! hermit:Bruise to ALL enemies. NL Apply 3 hermit:Bruise to ALL players in the room."
+  },
+  "${modID}:FrontierJustice": {
+    "NAME": "Frontier Justice",
+    "DESCRIPTION": "Whenever a debuff is applied to you, apply 1 Artifact to a random ally."
   }
 }
