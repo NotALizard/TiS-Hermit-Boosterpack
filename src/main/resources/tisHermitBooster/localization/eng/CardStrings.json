@@ -1,0 +1,27 @@
+{
+  "${modID}:ExampleCard": {
+    "NAME": "Name",
+    "DESCRIPTION": "Description. NL Second line.",
+    "UPGRADE_DESCRIPTION": "This will automatically be used if the card is upgraded. Remove it if unneeded.",
+    "EXTENDED_DESCRIPTION": [
+      "You can put more text in here.",
+      "If you need to use it for stuff.",
+      "Blizzard is a good example for this."
+    ]
+  },
+  "${modID}:HiredGun": {
+    "NAME": "Hired Gun",
+    "DESCRIPTION": "Deal !D! damage. NL hermit:Dead_On: If played by a class other than a Hermit, gain 1 hermit:Rugged. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL hermit:Dead_On: If played by a class other than a Hermit, gain 1 hermit:Rugged."
+  },
+  "${modID}:Diversion": {
+    "NAME": "Diversion",
+    "DESCRIPTION": "Retain. NL Apply 2 tiscardpack:Taunt. NL ALL allies draw !M! card and hermit:Concentrate. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Retain. NL Apply 2 tiscardpack:Taunt. NL ALL allies draw !M! cards and hermit:Concentrate. NL Exhaust."
+  },
+  "${modID}:HeistPlan": {
+    "NAME": "Heist Plan",
+    "DESCRIPTION": "Shuffle a *Diversion into the draw pile of all players in the room. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Innate. NL Shuffle a *Diversion into the draw pile of all players in the room. NL Exhaust."
+  }
+}

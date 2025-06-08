@@ -1,0 +1,78 @@
+package tisHermitBooster.cards;
+
+import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
+import com.megacrit.cardcrawl.characters.AbstractPlayer;
+import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.monsters.AbstractMonster;
+import hermit.cards.AbstractDynamicCard;
+import hermit.cards.AbstractHermitCard;
+import hermit.characters.hermit;
+import hermit.powers.Concentration;
+import hermit.powers.Rugged;
+import spireTogether.network.P2P.P2PPlayer;
+import spireTogether.network.objects.items.NetworkCard;
+import tisCardPack.actions.ApplyTauntAction;
+import tisCardPack.cards.colorless.FullCharge;
+
+import static tisHermitBooster.tisHermitBoosterMod.cardPath;
+import static tisHermitBooster.tisHermitBoosterMod.makeID;
+
+public class Diversion extends AbstractHermitMultiplayerCard {
+    public static final String ID = makeID(Diversion.class.getSimpleName());
+    public static final String IMG = cardPath("skill/default.png");
+    private static final CardRarity RARITY;
+    private static final CardTarget TARGET;
+    private static final CardType TYPE;
+    public static final CardColor COLOR;
+    private static final int COST = 1;
+    private static final int MAGIC = 1;
+    private static final int UPGRADE_MAGIC = 1;
+
+    static {
+        RARITY = CardRarity.SPECIAL;
+        TARGET = CardTarget.ENEMY;
+        TYPE = CardType.SKILL;
+        COLOR = CardColor.COLORLESS;
+    }
+
+    public Diversion() {
+        super(ID, IMG, COST, TYPE, COLOR, RARITY, TARGET);
+        this.baseMagicNumber = this.magicNumber = MAGIC;
+        this.exhaust = true;
+        this.retain = true;
+    }
+
+    public void use(AbstractPlayer p, AbstractMonster m) {
+        AbstractDungeon.actionManager.addToBottom(new ApplyTauntAction(m, p, 2));
+
+        for(P2PPlayer pl : this.getPlayers(true, true)) {
+            pl.draw(magicNumber);
+            pl.addPower(new Concentration(p,1));
+        }
+    }
+
+    public void DeadOnEffect(AbstractPlayer p, AbstractMonster m) {
+        this.addToBot(new ApplyPowerAction(p, p, new Rugged(p, this.magicNumber), this.magicNumber));
+    }
+
+    public void triggerOnGlowCheck() {
+        this.glowColor = AbstractDynamicCard.BLUE_BORDER_GLOW_COLOR.cpy();
+        if (this.isDeadOnPos()) {
+            this.glowColor = AbstractDynamicCard.GOLD_BORDER_GLOW_COLOR.cpy();
+        }
+
+    }
+
+    public void upgrade() {
+        if (!this.upgraded) {
+            this.exhaust = false;
+            this.upgradeName();
+            this.upgradeMagicNumber(UPGRADE_MAGIC);
+            this.rawDescription = cardStrings.UPGRADE_DESCRIPTION;
+            this.initializeDescription();
+        }
+
+    }
+
+
+}
