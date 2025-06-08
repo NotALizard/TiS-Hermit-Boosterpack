@@ -58,10 +58,9 @@ public class HiredGun extends AbstractHermitMultiplayerCard {
 
     public void triggerOnGlowCheck() {
         this.glowColor = AbstractDynamicCard.BLUE_BORDER_GLOW_COLOR.cpy();
-        if (this.isDeadOnPos()&& AbstractDungeon.player.chosenClass != hermit.Enums.HERMIT) {
+        if (this.isDeadOnPos() && AbstractDungeon.player.chosenClass != hermit.Enums.HERMIT) {
             this.glowColor = AbstractDynamicCard.GOLD_BORDER_GLOW_COLOR.cpy();
         }
-
     }
 
     public void upgrade() {
@@ -73,8 +72,5 @@ public class HiredGun extends AbstractHermitMultiplayerCard {
             this.rawDescription = cardStrings.UPGRADE_DESCRIPTION;
             this.initializeDescription();
         }
-
     }
-
-
 }

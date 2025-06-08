@@ -23,5 +23,15 @@
     "NAME": "Heist Plan",
     "DESCRIPTION": "Shuffle a *Diversion into the draw pile of all players in the room. NL Exhaust.",
     "UPGRADE_DESCRIPTION": "Innate. NL Shuffle a *Diversion into the draw pile of all players in the room. NL Exhaust."
+  },
+  "${modID}:DealersChoice": {
+    "NAME": "Dealer's Choice",
+    "DESCRIPTION": "ALL allies draw X cards. NL hermit:Dead_On: ALL allies gain [E]. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "ALL allies draw X+1 cards. NL hermit:Dead_On: ALL allies gain [E]. NL Exhaust."
+  },
+  "${modID}:Scapegoat": {
+    "NAME": "Scapegoat",
+    "DESCRIPTION": "tiscardpack:Transfer a random Curse from each ally's draw pile into your hand. Gain 1 hermit:Rugged for each Curse received. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Innate. NL tiscardpack:Transfer a random Curse from each ally's draw pile into your hand. Gain 1 hermit:Rugged for each Curse received. NL Exhaust."
   }
 }
