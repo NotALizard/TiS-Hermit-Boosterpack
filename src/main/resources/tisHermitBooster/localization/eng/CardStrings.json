@@ -33,5 +33,10 @@
     "NAME": "Scapegoat",
     "DESCRIPTION": "tiscardpack:Transfer a random Curse from each ally's draw pile into your hand. Gain 1 hermit:Rugged for each Curse received. NL Exhaust.",
     "UPGRADE_DESCRIPTION": "Innate. NL tiscardpack:Transfer a random Curse from each ally's draw pile into your hand. Gain 1 hermit:Rugged for each Curse received. NL Exhaust."
+  },
+  "${modID}:Shootout": {
+    "NAME": "Shootout",
+    "DESCRIPTION": "${modID}:Greedy. NL All Strikes and Defends allies play this turn tiscardpack:Transfer to you. They cost 0 for you this turn.",
+    "UPGRADE_DESCRIPTION": "${modID}:Greedy. NL All Strikes and Defends allies play this turn tiscardpack:Transfer to you and Upgrade. They cost 0 for you this turn."
   }
 }
