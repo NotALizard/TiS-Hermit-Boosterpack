@@ -38,5 +38,10 @@
     "NAME": "Shootout",
     "DESCRIPTION": "${modID}:Greedy. NL All Strikes and Defends allies play this turn tiscardpack:Transfer to you. They cost 0 for you this turn.",
     "UPGRADE_DESCRIPTION": "${modID}:Greedy. NL All Strikes and Defends allies play this turn tiscardpack:Transfer to you and Upgrade. They cost 0 for you this turn."
+  },
+  "${modID}:Barfight": {
+    "NAME": "Barfight",
+    "DESCRIPTION": "Apply !M! hermit:Bruise to ALL enemies and players in the room.",
+    "UPGRADE_DESCRIPTION": "Apply !M! hermit:Bruise to ALL enemies. NL Apply 3 hermit:Bruise to ALL players in the room."
   }
 }
