@@ -55,5 +55,9 @@
       " NL (Heals ",
       " HP.)"
     ]
+  },
+  "${modID}:HoldEm": {
+    "NAME": "Hold 'Em",
+    "DESCRIPTION": "ALL players in the room lose 1 Dexterity and gain !M! Plated Armor. NL Exhaust."
   }
 }
