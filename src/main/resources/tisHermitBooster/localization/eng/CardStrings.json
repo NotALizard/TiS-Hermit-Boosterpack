@@ -63,5 +63,9 @@
   "${modID}:FalseGrit": {
     "NAME": "False Grit",
     "DESCRIPTION": "EACH ally gains buffs based on their debuffs: NL !M! Strength if Weak. NL !M! Dexterity if Frail. NL 1 hermit:Rugged if Vulnerable."
+  },
+  "${modID}:UglyBusiness": {
+    "NAME": "Ugly Business",
+    "DESCRIPTION": "Deal !D! damage. NL Apply !M! Weak and !M! Frail to a random ally."
   }
 }
