@@ -16,8 +16,8 @@
   },
   "${modID}:Diversion": {
     "NAME": "Diversion",
-    "DESCRIPTION": "Retain. NL Apply 2 tiscardpack:Taunt. NL ALL allies draw !M! card and hermit:Concentrate. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "Retain. NL Apply 2 tiscardpack:Taunt. NL ALL allies draw !M! cards and hermit:Concentrate. NL Exhaust."
+    "DESCRIPTION": "Retain. NL Apply 2 tiscardpack:Taunt to an enemy. NL ALL allies draw !M! card and hermit:Concentrate. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Retain. NL Apply 2 tiscardpack:Taunt to an enemy. NL ALL allies draw !M! cards and hermit:Concentrate. NL Exhaust."
   },
   "${modID}:HeistPlan": {
     "NAME": "Heist Plan",
@@ -67,5 +67,9 @@
   "${modID}:UglyBusiness": {
     "NAME": "Ugly Business",
     "DESCRIPTION": "Deal !D! damage. NL Apply !M! Weak and !M! Frail to a random ally."
+  },
+  "${modID}:LoneRanger": {
+    "NAME": "Lone Ranger",
+    "DESCRIPTION": "Apply !M! tiscardpack:Taunt to an enemy until next turn. NL hermit:Dead_On: Gain 1 hermit:Rugged. NL Exhaust."
   }
 }

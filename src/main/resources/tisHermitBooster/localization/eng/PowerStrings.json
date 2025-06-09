@@ -19,5 +19,11 @@
       "Whenever a debuff is applied to you, apply 1 Artifact to a random ally ",
       " times."
     ]
+  },
+  "${modID}:LoneRangerPower": {
+    "NAME": "Lone Ranger",
+    "DESCRIPTIONS": [
+      "You are taunting an enemy until the start of next turn."
+    ]
   }
 }
