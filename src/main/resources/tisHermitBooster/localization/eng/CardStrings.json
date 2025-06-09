@@ -47,5 +47,13 @@
   "${modID}:FrontierJustice": {
     "NAME": "Frontier Justice",
     "DESCRIPTION": "Whenever a debuff is applied to you, apply 1 Artifact to a random ally."
+  },
+  "${modID}:DesertRain": {
+    "NAME": "Desert Rain",
+    "DESCRIPTION": "ALL allies heal HP equal to !M! times the number of Curses in your exhaust pile. NL Exhaust.",
+    "EXTENDED_DESCRIPTION": [
+      " NL (Heals ",
+      " HP.)"
+    ]
   }
 }
