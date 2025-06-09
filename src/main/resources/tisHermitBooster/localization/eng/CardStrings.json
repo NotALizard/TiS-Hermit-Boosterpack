@@ -59,5 +59,9 @@
   "${modID}:HoldEm": {
     "NAME": "Hold 'Em",
     "DESCRIPTION": "ALL players in the room lose 1 Dexterity and gain !M! Plated Armor. NL Exhaust."
+  },
+  "${modID}:FalseGrit": {
+    "NAME": "False Grit",
+    "DESCRIPTION": "EACH ally gains buffs based on their debuffs: NL !M! Strength if Weak. NL !M! Dexterity if Frail. NL 1 hermit:Rugged if Vulnerable."
   }
 }
