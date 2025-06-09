@@ -1,9 +1,16 @@
 {
-  "${modID}:RelicID": {
-    "NAME": "Good Relic",
-    "FLAVOR": "Flavor text displayed in detailed relic view.",
+  "${modID}:WantedPoster": {
+    "NAME": "WANTED Poster",
+    "FLAVOR": "Even the sickest villain can be found, for the right price.",
     "DESCRIPTIONS": [
-      "Gain [E] at the start of your turn. [E] is an energy icon."
+      "Whenever you apply a debuff to an ally, they also gain #b1 #yStrength, #b1 #yDexterity, and #b1 #yFocus."
+    ]
+  },
+  "${modID}:ElevenGallonHat": {
+    "NAME": "Eleven Gallon Hat",
+    "FLAVOR": "Enough yee-haw to go around.",
+    "DESCRIPTIONS": [
+      "The first time you trigger a #yhermit:Dead_On effect each turn, a random ally gains [E] ."
     ]
   }
 }

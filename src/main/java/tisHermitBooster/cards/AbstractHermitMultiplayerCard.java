@@ -22,6 +22,7 @@ import hermit.powers.Concentration;
 import hermit.powers.SnipePower;
 import hermit.relics.BlackPowder;
 import spireTogether.cards.CustomMultiplayerCard;
+import tisHermitBooster.relics.ElevenGallonHat;
 
 import static hermit.cards.AbstractHermitCard.deadOnThisTurn;
 
@@ -114,6 +115,10 @@ public abstract class AbstractHermitMultiplayerCard extends CustomMultiplayerCar
                 if (c.relicId.equals(BlackPowder.ID)) {
                     this.addToBot(new RelicAboveCreatureAction(AbstractDungeon.player, c));
                     this.addToBot(new DamageAllEnemiesAction((AbstractCreature)null, DamageInfo.createDamageMatrix(2, true), DamageInfo.DamageType.THORNS, AbstractGameAction.AttackEffect.FIRE, true));
+                }
+                if (c.relicId.equals(ElevenGallonHat.ID)) {
+                    ElevenGallonHat hat = (ElevenGallonHat)c;
+                    hat.triggerRelic();
                 }
             }
         }

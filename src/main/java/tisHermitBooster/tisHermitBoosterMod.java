@@ -2,11 +2,12 @@ package tisHermitBooster;
 
 import basemod.AutoAdd;
 import basemod.BaseMod;
-import basemod.interfaces.EditCardsSubscriber;
-import basemod.interfaces.EditKeywordsSubscriber;
-import basemod.interfaces.EditStringsSubscriber;
-import basemod.interfaces.PostInitializeSubscriber;
+import basemod.interfaces.*;
+import com.megacrit.cardcrawl.unlock.UnlockTracker;
+import hermit.characters.hermit;
 import tisHermitBooster.cards.BaseCard;
+import tisHermitBooster.relics.ElevenGallonHat;
+import tisHermitBooster.relics.WantedPoster;
 import tisHermitBooster.util.GeneralUtils;
 import tisHermitBooster.util.KeywordInfo;
 import tisHermitBooster.util.TextureLoader;
@@ -33,6 +34,7 @@ import java.util.*;
 @SpireInitializer
 public class tisHermitBoosterMod implements
         EditCardsSubscriber,
+        EditRelicsSubscriber,
         EditStringsSubscriber,
         EditKeywordsSubscriber,
         PostInitializeSubscriber {
@@ -163,6 +165,14 @@ public class tisHermitBoosterMod implements
             .packageFilter(BaseCard.class)
             .setDefaultSeen(true)
             .cards();
+    }
+
+    @Override
+    public void receiveEditRelics() {
+        BaseMod.addRelicToCustomPool(new WantedPoster(), hermit.Enums.COLOR_YELLOW);
+        BaseMod.addRelicToCustomPool(new ElevenGallonHat(), hermit.Enums.COLOR_YELLOW);
+        UnlockTracker.markRelicAsSeen(WantedPoster.ID);
+        UnlockTracker.markRelicAsSeen(ElevenGallonHat.ID);
     }
 
     //These methods are used to generate the correct filepaths to various parts of the resources folder.
