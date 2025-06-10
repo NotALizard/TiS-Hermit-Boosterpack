@@ -19,7 +19,7 @@ import static tisHermitBooster.tisHermitBoosterMod.makeID;
 
 public class Diversion extends AbstractHermitMultiplayerCard {
     public static final String ID = makeID(Diversion.class.getSimpleName());
-    public static final String IMG = cardPath("skill/default.png");
+    public static final String IMG = cardPath("skill/Diversion.png");
     private static final CardRarity RARITY;
     private static final CardTarget TARGET;
     private static final CardType TYPE;

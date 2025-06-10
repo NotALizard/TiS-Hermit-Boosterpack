@@ -19,7 +19,7 @@ import static tisHermitBooster.tisHermitBoosterMod.*;
 
 public class HiredGun extends AbstractHermitMultiplayerCard {
     public static final String ID = makeID(HiredGun.class.getSimpleName());
-    public static final String IMG = cardPath("attack/default.png");
+    public static final String IMG = cardPath("attack/HiredGun.png");
     private static final AbstractCard.CardRarity RARITY;
     private static final AbstractCard.CardTarget TARGET;
     private static final AbstractCard.CardType TYPE;

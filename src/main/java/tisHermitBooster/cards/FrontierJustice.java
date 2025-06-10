@@ -21,7 +21,7 @@ import static tisHermitBooster.tisHermitBoosterMod.makeID;
 
 public class FrontierJustice extends AbstractHermitMultiplayerCard {
     public static final String ID = makeID(FrontierJustice.class.getSimpleName());
-    public static final String IMG = cardPath("power/default.png");
+    public static final String IMG = cardPath("power/FrontierJustice.png");
     private static final CardRarity RARITY;
     private static final CardTarget TARGET;
     private static final CardType TYPE;

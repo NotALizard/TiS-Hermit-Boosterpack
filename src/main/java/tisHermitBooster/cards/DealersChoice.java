@@ -19,7 +19,7 @@ import static tisHermitBooster.tisHermitBoosterMod.makeID;
 
 public class DealersChoice extends AbstractHermitMultiplayerCard {
     public static final String ID = makeID(DealersChoice.class.getSimpleName());
-    public static final String IMG = cardPath("skill/default.png");
+    public static final String IMG = cardPath("skill/DealersChoice.png");
     private static final CardRarity RARITY;
     private static final CardTarget TARGET;
     private static final CardType TYPE;

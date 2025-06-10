@@ -15,7 +15,7 @@ import static tisHermitBooster.tisHermitBoosterMod.makeID;
 
 public class UglyBusiness extends AbstractHermitMultiplayerCard {
     public static final String ID = makeID(UglyBusiness.class.getSimpleName());
-    public static final String IMG = cardPath("attack/default.png");
+    public static final String IMG = cardPath("attack/UglyBusiness.png");
     private static final CardRarity RARITY;
     private static final CardTarget TARGET;
     private static final CardType TYPE;
