@@ -5,5 +5,13 @@
       "Greedy"
     ],
     "DESCRIPTION": "Allies under the effects of their own copy of this card are excluded from its targets."
+  },
+  {
+    "PROPER_NAME": "Plated Armor",
+    "NAMES": [
+      "Plated Armor",
+      "Plated_Armor"
+    ],
+    "DESCRIPTION": "Gives block at the end of your turn. Taking unblocked attack damage reduces the buff by 1."
   }
 ]

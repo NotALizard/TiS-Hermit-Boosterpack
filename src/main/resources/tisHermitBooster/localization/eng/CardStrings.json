@@ -46,7 +46,8 @@
   },
   "${modID}:FrontierJustice": {
     "NAME": "Frontier Justice",
-    "DESCRIPTION": "Whenever a debuff is applied to you, apply 1 Artifact to a random ally."
+    "DESCRIPTION": "Whenever a debuff is applied to you, apply 1 Artifact to a random ally.",
+    "UPGRADE_DESCRIPTION": "Innate. NL Whenever a debuff is applied to you, apply 1 Artifact to a random ally."
   },
   "${modID}:DesertRain": {
     "NAME": "Desert Rain",
@@ -58,7 +59,7 @@
   },
   "${modID}:HoldEm": {
     "NAME": "Hold 'Em",
-    "DESCRIPTION": "ALL players in the room lose 1 Dexterity and gain !M! Plated Armor. NL Exhaust."
+    "DESCRIPTION": "ALL players in the room lose 1 Dexterity and gain !M! ${modID}:Plated_Armor. NL Exhaust."
   },
   "${modID}:FalseGrit": {
     "NAME": "False Grit",
@@ -71,5 +72,13 @@
   "${modID}:LoneRanger": {
     "NAME": "Lone Ranger",
     "DESCRIPTION": "Apply !M! tiscardpack:Taunt to an enemy until next turn. NL hermit:Dead_On: Gain 1 hermit:Rugged. NL Exhaust."
+  },
+  "${modID}:BlackSand": {
+    "NAME": "Black Sand",
+    "DESCRIPTION": "Ethereal. NL ALL allies gain Block equal to your missing HP. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Ethereal. NL ALL players in the room gain Block equal to your missing HP. NL Exhaust.",
+    "EXTENDED_DESCRIPTION": [
+      " NL (!B! Block.)"
+    ]
   }
 }

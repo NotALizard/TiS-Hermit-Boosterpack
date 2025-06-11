@@ -30,7 +30,7 @@ public class LoneRanger extends AbstractHermitMultiplayerCard {
     private static final CardType TYPE;
     public static final CardColor COLOR;
     private static final int COST = 2;
-    private static final int MAGIC = 3;
+    private static final int MAGIC = 4;
     private static final int UPGRADE_MAGIC = 2;
 
     static {

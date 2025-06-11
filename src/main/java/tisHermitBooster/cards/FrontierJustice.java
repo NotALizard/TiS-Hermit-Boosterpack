@@ -26,10 +26,10 @@ public class FrontierJustice extends AbstractHermitMultiplayerCard {
     private static final CardTarget TARGET;
     private static final CardType TYPE;
     public static final CardColor COLOR;
-    private static final int COST = 2;
+    private static final int COST = 1;
 
     static {
-        RARITY = CardRarity.UNCOMMON;
+        RARITY = CardRarity.RARE;
         TARGET = CardTarget.SELF;
         TYPE = CardType.POWER;
         COLOR = hermit.Enums.COLOR_YELLOW;
@@ -45,8 +45,9 @@ public class FrontierJustice extends AbstractHermitMultiplayerCard {
 
     public void upgrade() {
         if (!this.upgraded) {
-            this.upgradeBaseCost(1);
+            this.isInnate = true;
             this.upgradeName();
+            this.rawDescription = cardStrings.UPGRADE_DESCRIPTION;
             this.initializeDescription();
         }
     }

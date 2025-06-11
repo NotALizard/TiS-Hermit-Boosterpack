@@ -15,8 +15,8 @@ import static tisHermitBooster.tisHermitBoosterMod.relicPath;
 
 public class ElevenGallonHat extends CustomMultiplayerRelic {
     public static final String ID = makeID("ElevenGallonHat");
-    private static final Texture IMG = TextureLoader.getTexture(relicPath("example.png"));
-    private static final Texture OUTLINE = TextureLoader.getTexture(relicPath("example.png"));
+    private static final Texture IMG = TextureLoader.getTexture(relicPath("ElevenGallonHat.png"));
+    private static final Texture OUTLINE = TextureLoader.getTexture(relicPath("ElevenGallonHatOutline.png"));
     private boolean usedThisTurn = false;
 
     public ElevenGallonHat() {
