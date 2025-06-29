@@ -1,12 +1,9 @@
 package tisHermitBooster.actions;
 
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
-import com.megacrit.cardcrawl.actions.common.GainGoldAction;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.Settings;
-import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.ui.panels.EnergyPanel;
-import hermit.powers.Concentration;
 import spireTogether.network.P2P.P2PPlayer;
 
 import java.util.ArrayList;

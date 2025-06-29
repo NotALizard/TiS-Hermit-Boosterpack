@@ -1,20 +1,10 @@
 package tisHermitBooster.powers;
 
-import basemod.interfaces.CloneablePowerInterface;
 import com.evacipated.cardcrawl.mod.stslib.powers.interfaces.OnReceivePowerPower;
-import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
-import com.megacrit.cardcrawl.actions.common.RemoveSpecificPowerAction;
-import com.megacrit.cardcrawl.actions.utility.UseCardAction;
-import com.megacrit.cardcrawl.cards.AbstractCard;
-import com.megacrit.cardcrawl.cards.CardGroup;
 import com.megacrit.cardcrawl.core.AbstractCreature;
-import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.powers.AbstractPower;
 import com.megacrit.cardcrawl.powers.ArtifactPower;
-import com.megacrit.cardcrawl.powers.StrengthPower;
 import spireTogether.network.P2P.P2PPlayer;
-import spireTogether.network.objects.entities.NetworkPower;
-import spireTogether.network.objects.items.NetworkCard;
 import spireTogether.util.SpireHelp.Multiplayer.Players;
 
 import static tisHermitBooster.tisHermitBoosterMod.makeID;

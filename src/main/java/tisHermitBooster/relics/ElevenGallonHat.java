@@ -1,10 +1,6 @@
 package tisHermitBooster.relics;
 
 import com.badlogic.gdx.graphics.Texture;
-import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
-import com.megacrit.cardcrawl.powers.DexterityPower;
-import com.megacrit.cardcrawl.powers.FocusPower;
-import com.megacrit.cardcrawl.powers.StrengthPower;
 import spireTogether.network.P2P.P2PPlayer;
 import spireTogether.relics.CustomMultiplayerRelic;
 import spireTogether.util.SpireHelp;

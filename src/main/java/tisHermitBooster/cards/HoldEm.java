@@ -1,16 +1,12 @@
 package tisHermitBooster.cards;
 
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
-import com.megacrit.cardcrawl.actions.common.MakeTempCardInDrawPileAction;
-import com.megacrit.cardcrawl.cards.CardGroup;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.powers.DexterityPower;
-import com.megacrit.cardcrawl.powers.LoseDexterityPower;
 import com.megacrit.cardcrawl.powers.PlatedArmorPower;
 import hermit.characters.hermit;
 import spireTogether.network.P2P.P2PPlayer;
-import spireTogether.network.objects.items.NetworkCard;
 
 import static tisHermitBooster.tisHermitBoosterMod.cardPath;
 import static tisHermitBooster.tisHermitBoosterMod.makeID;

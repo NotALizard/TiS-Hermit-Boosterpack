@@ -1,20 +1,12 @@
 package tisHermitBooster.cards;
 
-import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
-import com.megacrit.cardcrawl.actions.common.DamageAction;
 import com.megacrit.cardcrawl.actions.common.MakeTempCardInDrawPileAction;
 import com.megacrit.cardcrawl.cards.CardGroup;
-import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
-import hermit.cards.AbstractDynamicCard;
-import hermit.cards.AbstractHermitCard;
 import hermit.characters.hermit;
-import hermit.patches.EnumPatch;
-import hermit.powers.Rugged;
 import spireTogether.network.P2P.P2PPlayer;
 import spireTogether.network.objects.items.NetworkCard;
-import tisCardPack.cards.colorless.FullCharge;
 
 import static tisHermitBooster.tisHermitBoosterMod.cardPath;
 import static tisHermitBooster.tisHermitBoosterMod.makeID;

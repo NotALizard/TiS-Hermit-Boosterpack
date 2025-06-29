@@ -2,12 +2,10 @@ package tisHermitBooster.cards;
 
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.actions.common.RemoveSpecificPowerAction;
-import com.megacrit.cardcrawl.cards.CardGroup;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import hermit.characters.hermit;
 import spireTogether.network.P2P.P2PPlayer;
-import spireTogether.network.objects.items.NetworkCard;
 import tisHermitBooster.powers.ShootoutRecipientPower;
 import tisHermitBooster.powers.ShootoutSenderPower;
 

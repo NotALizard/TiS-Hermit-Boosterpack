@@ -1,13 +1,11 @@
 package tisHermitBooster.powers;
 
-import com.megacrit.cardcrawl.actions.common.DrawCardAction;
 import com.megacrit.cardcrawl.actions.common.RemoveSpecificPowerAction;
 import com.megacrit.cardcrawl.actions.utility.UseCardAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.cards.CardGroup;
 import com.megacrit.cardcrawl.core.AbstractCreature;
 import com.megacrit.cardcrawl.powers.AbstractPower;
-import spireTogether.network.P2P.P2PManager;
 import spireTogether.network.P2P.P2PPlayer;
 import spireTogether.network.objects.entities.NetworkPower;
 import spireTogether.network.objects.items.NetworkCard;

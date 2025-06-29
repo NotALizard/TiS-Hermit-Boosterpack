@@ -11,7 +11,6 @@ import hermit.characters.hermit;
 import hermit.powers.Rugged;
 import spireTogether.network.P2P.P2PPlayer;
 import spireTogether.network.objects.items.NetworkCard;
-import tisHermitBooster.actions.DealersChoiceAction;
 
 import java.util.ArrayList;
 import java.util.Random;

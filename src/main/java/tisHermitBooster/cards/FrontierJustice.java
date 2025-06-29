@@ -1,20 +1,10 @@
 package tisHermitBooster.cards;
 
-import com.megacrit.cardcrawl.actions.animations.VFXAction;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
-import com.megacrit.cardcrawl.cards.AbstractCard;
-import com.megacrit.cardcrawl.cards.CardGroup;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
-import com.megacrit.cardcrawl.vfx.cardManip.ShowCardAndAddToHandEffect;
 import hermit.characters.hermit;
-import hermit.powers.Rugged;
-import spireTogether.network.P2P.P2PPlayer;
-import spireTogether.network.objects.items.NetworkCard;
 import tisHermitBooster.powers.FrontierJusticePower;
-
-import java.util.ArrayList;
-import java.util.Random;
 
 import static tisHermitBooster.tisHermitBoosterMod.cardPath;
 import static tisHermitBooster.tisHermitBoosterMod.makeID;
