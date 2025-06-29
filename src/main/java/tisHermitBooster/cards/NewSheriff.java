@@ -13,9 +13,9 @@ import tisHermitBooster.powers.LoneRangerPower;
 import static tisHermitBooster.tisHermitBoosterMod.cardPath;
 import static tisHermitBooster.tisHermitBoosterMod.makeID;
 
-public class LoneRanger extends AbstractHermitMultiplayerCard {
-    public static final String ID = makeID(LoneRanger.class.getSimpleName());
-    public static final String IMG = cardPath("skill/LoneRanger.png");
+public class NewSheriff extends AbstractHermitMultiplayerCard {
+    public static final String ID = makeID(NewSheriff.class.getSimpleName());
+    public static final String IMG = cardPath("skill/NewSheriff.png");
     private static final CardRarity RARITY;
     private static final CardTarget TARGET;
     private static final CardType TYPE;
@@ -31,7 +31,7 @@ public class LoneRanger extends AbstractHermitMultiplayerCard {
         COLOR = hermit.Enums.COLOR_YELLOW;
     }
 
-    public LoneRanger() {
+    public NewSheriff() {
         super(ID, IMG, COST, TYPE, COLOR, RARITY, TARGET);
         this.exhaust = true;
         this.baseMagicNumber = this.magicNumber = MAGIC;

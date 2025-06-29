@@ -19,7 +19,7 @@ public class HoldEm extends AbstractHermitMultiplayerCard {
     private static final CardType TYPE;
     public static final CardColor COLOR;
     private static final int COST = 1;
-    private static final int MAGIC = 5;
+    private static final int MAGIC = 4;
     private static final int UPGRADE_MAGIC = 2;
 
     static {

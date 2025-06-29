@@ -51,7 +51,7 @@
   },
   "${modID}:DesertRain": {
     "NAME": "Desert Rain",
-    "DESCRIPTION": "ALL allies heal HP equal to !M! times the number of Curses in your exhaust pile. NL Exhaust.",
+    "DESCRIPTION": "ALL players heal HP equal to !M! times the number of Curses in your exhaust pile. NL Exhaust.",
     "EXTENDED_DESCRIPTION": [
       " NL (Heals ",
       " HP.)"
@@ -69,8 +69,8 @@
     "NAME": "Ugly Business",
     "DESCRIPTION": "Deal !D! damage. NL Apply !M! Weak and !M! Frail to a random ally."
   },
-  "${modID}:LoneRanger": {
-    "NAME": "Lone Ranger",
+  "${modID}:NewSheriff": {
+    "NAME": "New Sheriff",
     "DESCRIPTION": "Apply !M! tiscardpack:Taunt to an enemy until next turn. NL hermit:Dead_On: Gain 1 hermit:Rugged. NL Exhaust."
   },
   "${modID}:BlackSand": {

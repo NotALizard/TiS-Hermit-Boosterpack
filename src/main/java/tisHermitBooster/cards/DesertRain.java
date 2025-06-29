@@ -1,6 +1,7 @@
 package tisHermitBooster.cards;
 
 import com.megacrit.cardcrawl.actions.animations.VFXAction;
+import com.megacrit.cardcrawl.actions.common.HealAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
@@ -43,7 +44,8 @@ public class DesertRain extends AbstractHermitMultiplayerCard {
         int curseTotal = countExhaustedCurses(p);
 
         if(curseTotal > 0){
-            for(P2PPlayer player : this.getPlayers(true, true)) {
+            addToBot(new HealAction(p, p, curseTotal*magicNumber));
+            for(P2PPlayer player : this.getPlayers(false, true)) {
                 player.heal(curseTotal*magicNumber);
             }
         }
