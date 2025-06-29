@@ -1,5 +1,6 @@
 package tisHermitBooster.cards;
 
+import com.megacrit.cardcrawl.actions.animations.VFXAction;
 import com.megacrit.cardcrawl.actions.common.MakeTempCardInDrawPileAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.cards.CardGroup;
@@ -7,6 +8,10 @@ import com.megacrit.cardcrawl.cards.status.Burn;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
+import com.megacrit.cardcrawl.vfx.combat.EmpowerCircleEffect;
+import com.megacrit.cardcrawl.vfx.combat.MiracleEffect;
+import com.megacrit.cardcrawl.vfx.combat.WaterDropEffect;
+import com.megacrit.cardcrawl.vfx.combat.WaterSplashParticleEffect;
 import hermit.characters.hermit;
 import spireTogether.network.P2P.P2PPlayer;
 import spireTogether.network.objects.items.NetworkCard;
@@ -48,6 +53,10 @@ public class DesertRain extends AbstractHermitMultiplayerCard {
                 player.heal(curseTotal*magicNumber);
             }
         }
+        for(int i = 0; i < 20; i++) {
+            addToTop(new VFXAction(new EmpowerCircleEffect(AbstractDungeon.player.hb.cX, AbstractDungeon.player.hb.cY)));
+        }
+        this.addToBot(new VFXAction(new MiracleEffect()));
 
         this.rawDescription = cardStrings.DESCRIPTION;
         this.initializeDescription();
