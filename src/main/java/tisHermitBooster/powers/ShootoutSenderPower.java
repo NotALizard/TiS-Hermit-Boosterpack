@@ -7,11 +7,8 @@ import com.megacrit.cardcrawl.cards.CardGroup;
 import com.megacrit.cardcrawl.core.AbstractCreature;
 import com.megacrit.cardcrawl.powers.AbstractPower;
 import spireTogether.network.P2P.P2PPlayer;
-import spireTogether.network.objects.entities.NetworkPower;
 import spireTogether.network.objects.items.NetworkCard;
 import spireTogether.util.SpireHelp.Multiplayer.Players;
-
-import java.util.Iterator;
 
 import static tisHermitBooster.tisHermitBoosterMod.makeID;
 
