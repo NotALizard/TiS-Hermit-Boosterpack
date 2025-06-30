@@ -25,10 +25,10 @@
       " times."
     ]
   },
-  "${modID}:LoneRangerPower": {
-    "NAME": "Lone Ranger",
+  "${modID}:NewSheriffPower": {
+    "NAME": "New Sheriff",
     "DESCRIPTIONS": [
-      "You are taunting an enemy until the start of next turn."
+      "There's a new sheriff in town. NL You are taunting an enemy until the start of next turn."
     ]
   }
 }

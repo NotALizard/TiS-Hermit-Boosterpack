@@ -10,13 +10,13 @@ import java.util.Objects;
 
 import static tisHermitBooster.tisHermitBoosterMod.makeID;
 
-public class LoneRangerPower extends BasePower {
-    public static final String POWER_ID = makeID(LoneRangerPower.class.getSimpleName());
+public class NewSheriffPower extends BasePower {
+    public static final String POWER_ID = makeID(NewSheriffPower.class.getSimpleName());
     private static final PowerType TYPE = PowerType.BUFF;
     private static final boolean TURN_BASED = false;
     private ArrayList<AbstractMonster> targets;
 
-    public LoneRangerPower(AbstractCreature owner, AbstractMonster target) {
+    public NewSheriffPower(AbstractCreature owner, AbstractMonster target) {
         super(POWER_ID, TYPE, TURN_BASED, owner, -1);
         this.targets = new ArrayList<>();
         targets.add(target);

@@ -8,7 +8,7 @@ import hermit.cards.AbstractHermitCard;
 import hermit.characters.hermit;
 import hermit.powers.Rugged;
 import tisCardPack.actions.ApplyTauntAction;
-import tisHermitBooster.powers.LoneRangerPower;
+import tisHermitBooster.powers.NewSheriffPower;
 
 import static tisHermitBooster.tisHermitBoosterMod.cardPath;
 import static tisHermitBooster.tisHermitBoosterMod.makeID;
@@ -40,12 +40,12 @@ public class NewSheriff extends AbstractHermitMultiplayerCard {
 
     public void use(AbstractPlayer p, AbstractMonster m) {
         addToBot(new ApplyTauntAction(m, p, magicNumber));
-        if(p.hasPower(LoneRangerPower.POWER_ID)){
-            LoneRangerPower lr = (LoneRangerPower)p.getPower(LoneRangerPower.POWER_ID);
+        if(p.hasPower(NewSheriffPower.POWER_ID)){
+            NewSheriffPower lr = (NewSheriffPower)p.getPower(NewSheriffPower.POWER_ID);
             lr.addTarget(m);
         }
         else{
-            addToBot(new ApplyPowerAction(p, p, new LoneRangerPower(p, m)));
+            addToBot(new ApplyPowerAction(p, p, new NewSheriffPower(p, m)));
         }
         if (this.isDeadOn()) {
             this.TriggerDeadOnEffect(p, m);
