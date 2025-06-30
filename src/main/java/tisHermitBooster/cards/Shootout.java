@@ -7,6 +7,7 @@ import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import hermit.characters.hermit;
 import spireTogether.network.P2P.P2PPlayer;
 import tisHermitBooster.powers.ShootoutRecipientPower;
+import tisHermitBooster.powers.ShootoutPlusRecipientPower;
 import tisHermitBooster.powers.ShootoutSenderPower;
 
 import static tisHermitBooster.tisHermitBoosterMod.cardPath;
@@ -37,20 +38,19 @@ public class Shootout extends AbstractHermitMultiplayerCard {
         if(p.hasPower(ShootoutSenderPower.POWER_ID)){
             addToBot(new RemoveSpecificPowerAction(p, p, ShootoutSenderPower.POWER_ID));
         }
-        if(p.hasPower(ShootoutRecipientPower.POWER_ID)){
-            ShootoutRecipientPower power = (ShootoutRecipientPower)p.getPower(ShootoutRecipientPower.POWER_ID);
-            if(upgraded){
-                power.upgrade();
-                power.updateDescription();
+        if(upgraded){
+            if(p.hasPower(ShootoutRecipientPower.POWER_ID)){
+                addToBot(new RemoveSpecificPowerAction(p, p, ShootoutRecipientPower.POWER_ID));
             }
+            addToBot(new ApplyPowerAction(p, p, new ShootoutPlusRecipientPower(p), -1));
         }
-        else{
-            this.addToBot(new ApplyPowerAction(p, p, new ShootoutRecipientPower(p, this.upgraded), -1));
+        else if (!p.hasPower(ShootoutPlusRecipientPower.POWER_ID)){
+            this.addToBot(new ApplyPowerAction(p, p, new ShootoutRecipientPower(p), -1));
         }
 
         //Set listener power on other players who don't have it already
         for(P2PPlayer player : this.getPlayers(true, true)) {
-            if(!player.hasPower(ShootoutSenderPower.POWER_ID) && !player.hasPower(ShootoutRecipientPower.POWER_ID) ){
+            if(!player.hasPower(ShootoutSenderPower.POWER_ID) && !player.hasPower(ShootoutRecipientPower.POWER_ID) && !player.hasPower(ShootoutPlusRecipientPower.POWER_ID)){
                 player.addPower(new ShootoutSenderPower(p));
             }
         }

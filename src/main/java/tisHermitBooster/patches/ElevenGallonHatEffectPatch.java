@@ -11,7 +11,6 @@ import tisHermitBooster.relics.ElevenGallonHat;
 @SpirePatch2(
         clz = AbstractHermitCard.class,
         method = "TriggerDeadOnEffect",
-        requiredModId = "hermit",
         optional = true
 )
 public class ElevenGallonHatEffectPatch {

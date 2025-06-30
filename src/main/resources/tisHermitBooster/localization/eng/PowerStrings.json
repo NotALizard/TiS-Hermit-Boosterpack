@@ -1,6 +1,6 @@
 {
   "${modID}:ShootoutSenderPower": {
-    "NAME": "Shootout",
+    "NAME": "Shootout Participant",
     "DESCRIPTIONS": [
       "Transfer away all Strikes and Defends you play this turn."
     ]
@@ -8,7 +8,12 @@
   "${modID}:ShootoutRecipientPower": {
     "NAME": "Shootout",
     "DESCRIPTIONS": [
-      "All Strikes and Defends allies play this turn Transfer to you. They cost 0 for you this turn.",
+      "All Strikes and Defends allies play this turn Transfer to you. They cost 0 for you this turn."
+    ]
+  },
+  "${modID}:ShootoutPlusRecipientPower": {
+    "NAME": "Shootout+",
+    "DESCRIPTIONS": [
       "All Strikes and Defends allies play this turn Transfer to you and Upgrade. They cost 0 for you this turn."
     ]
   },

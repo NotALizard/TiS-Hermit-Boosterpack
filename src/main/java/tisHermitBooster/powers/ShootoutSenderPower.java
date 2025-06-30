@@ -37,18 +37,11 @@ public class ShootoutSenderPower extends BasePower {
     private boolean sendCard(AbstractCard card){
         boolean recipientFound = false;
         for(P2PPlayer np : Players.GetPlayers(true, true)) {
-            if(np.hasPower(ShootoutRecipientPower.POWER_ID) && !np.hasPower(ShootoutSenderPower.POWER_ID)){
+            if((np.hasPower(ShootoutRecipientPower.POWER_ID) || np.hasPower(ShootoutPlusRecipientPower.POWER_ID)) && !np.hasPower(ShootoutSenderPower.POWER_ID)){
                 recipientFound = true;
                 AbstractCard sendCopy = card.makeStatEquivalentCopy();
-                for(NetworkPower pwr : np.powers) {
-                    AbstractPower stPwr = pwr.ToStandard();
-                    if(stPwr.ID.equals(ShootoutRecipientPower.POWER_ID)){
-                        ShootoutRecipientPower recip = (ShootoutRecipientPower)stPwr;
-                        if(recip.isUpgraded()){
-                            sendCopy.upgrade();
-                        }
-                        break;
-                    }
+                if(np.hasPower(ShootoutPlusRecipientPower.POWER_ID)){
+                    sendCopy.upgrade();
                 }
                 sendCopy.setCostForTurn(-9);
                 np.addCard(NetworkCard.Generate(sendCopy), CardGroup.CardGroupType.HAND);

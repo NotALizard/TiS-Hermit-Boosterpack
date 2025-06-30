@@ -5,12 +5,12 @@ import com.megacrit.cardcrawl.core.AbstractCreature;
 
 import static tisHermitBooster.tisHermitBoosterMod.makeID;
 
-public class ShootoutRecipientPower extends BasePower {
-    public static final String POWER_ID = makeID(ShootoutRecipientPower.class.getSimpleName());
+public class ShootoutPlusRecipientPower extends BasePower {
+    public static final String POWER_ID = makeID(ShootoutPlusRecipientPower.class.getSimpleName());
     private static final PowerType TYPE = PowerType.BUFF;
     private static final boolean TURN_BASED = true;
 
-    public ShootoutRecipientPower(AbstractCreature owner) {
+    public ShootoutPlusRecipientPower(AbstractCreature owner) {
         super(POWER_ID, TYPE, TURN_BASED, owner, -1);
     }
 

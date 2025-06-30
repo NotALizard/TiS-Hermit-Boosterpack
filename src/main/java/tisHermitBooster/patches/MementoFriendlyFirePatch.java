@@ -12,7 +12,6 @@ import spireTogether.util.SpireHelp;
 @SpirePatch2(
         clz = MementoCard.class,
         method = "use",
-        requiredModId = "hermit",
         optional = true
 )
 public class MementoFriendlyFirePatch {
