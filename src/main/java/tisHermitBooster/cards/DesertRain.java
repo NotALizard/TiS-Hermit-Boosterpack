@@ -38,6 +38,7 @@ public class DesertRain extends AbstractHermitMultiplayerCard {
         super(ID, IMG, COST, TYPE, COLOR, RARITY, TARGET);
         this.exhaust = true;
         this.baseMagicNumber = this.magicNumber = MAGIC;
+        this.tags.add(CardTags.HEALING);
     }
 
     public void use(AbstractPlayer p, AbstractMonster m) {
