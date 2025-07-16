@@ -107,20 +107,12 @@ public class tisHermitBoosterMod implements
         //Feel free to comment out/delete any that you don't end up using.
         BaseMod.loadCustomStringsFile(CardStrings.class,
                 localizationPath(lang, "CardStrings.json"));
-        BaseMod.loadCustomStringsFile(CharacterStrings.class,
-                localizationPath(lang, "CharacterStrings.json"));
-        BaseMod.loadCustomStringsFile(EventStrings.class,
-                localizationPath(lang, "EventStrings.json"));
-        BaseMod.loadCustomStringsFile(OrbStrings.class,
-                localizationPath(lang, "OrbStrings.json"));
         BaseMod.loadCustomStringsFile(PotionStrings.class,
                 localizationPath(lang, "PotionStrings.json"));
         BaseMod.loadCustomStringsFile(PowerStrings.class,
                 localizationPath(lang, "PowerStrings.json"));
         BaseMod.loadCustomStringsFile(RelicStrings.class,
                 localizationPath(lang, "RelicStrings.json"));
-        BaseMod.loadCustomStringsFile(UIStrings.class,
-                localizationPath(lang, "UIStrings.json"));
     }
 
     @Override
