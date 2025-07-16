@@ -6,6 +6,8 @@ import basemod.interfaces.*;
 import com.megacrit.cardcrawl.unlock.UnlockTracker;
 import hermit.characters.hermit;
 import tisHermitBooster.cards.BaseCard;
+import tisHermitBooster.potions.BasePotion;
+import tisHermitBooster.relics.CursedChest;
 import tisHermitBooster.relics.ElevenGallonHat;
 import tisHermitBooster.relics.WantedPoster;
 import tisHermitBooster.util.GeneralUtils;
@@ -70,6 +72,7 @@ public class tisHermitBoosterMod implements
         //If you want to set up a config panel, that will be done here.
         //You can find information about this on the BaseMod wiki page "Mod Config and Panel".
         BaseMod.registerModBadge(badgeTexture, info.Name, GeneralUtils.arrToString(info.Authors), info.Description, null);
+        registerPotions();
     }
 
     /*----------Localization----------*/
@@ -163,8 +166,18 @@ public class tisHermitBoosterMod implements
     public void receiveEditRelics() {
         BaseMod.addRelicToCustomPool(new WantedPoster(), hermit.Enums.COLOR_YELLOW);
         BaseMod.addRelicToCustomPool(new ElevenGallonHat(), hermit.Enums.COLOR_YELLOW);
+        BaseMod.addRelicToCustomPool(new CursedChest(), hermit.Enums.COLOR_YELLOW);
         UnlockTracker.markRelicAsSeen(WantedPoster.ID);
         UnlockTracker.markRelicAsSeen(ElevenGallonHat.ID);
+        UnlockTracker.markRelicAsSeen(CursedChest.ID);
+    }
+
+    public static void registerPotions() {
+        new AutoAdd(modID)
+            .packageFilter(BasePotion.class)
+            .any(BasePotion.class, (info, potion) -> {
+                BaseMod.addPotion(potion.getClass(), null, null, null, potion.ID, potion.playerClass);
+            });
     }
 
     //These methods are used to generate the correct filepaths to various parts of the resources folder.

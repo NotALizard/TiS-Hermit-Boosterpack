@@ -12,5 +12,12 @@
     "DESCRIPTIONS": [
       "The first time you trigger a #yhermit:Dead_On effect each turn, a random ally gains [E] ."
     ]
+  },
+  "${modID}:CursedChest": {
+    "NAME": "Cursed Chest",
+    "FLAVOR": "A rustic box of precious trinkets... with a sordid history.",
+    "DESCRIPTIONS": [
+      "Whenever you receive a #yCurse through trading, gain #b60 #yGold."
+    ]
   }
 }
