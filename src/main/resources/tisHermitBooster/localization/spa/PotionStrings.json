@@ -1,0 +1,8 @@
+{
+  "${modID}:WoozyPotion": {
+    "NAME": "Poción de Mareo",
+    "DESCRIPTIONS": [
+      "Aplica #b%d #yDébil, #yVulnerable, and #yFrágil."
+    ]
+  }
+}

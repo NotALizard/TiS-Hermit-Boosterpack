@@ -1,0 +1,23 @@
+{
+  "${modID}:WantedPoster": {
+    "NAME": "Cartel de SE BUSCA",
+    "FLAVOR": "Incluso el villano más morboso se puede encontrar, por el precio correcto.",
+    "DESCRIPTIONS": [
+      "Cada vez que apliques un perjuicio a un aliado, también ganará #b1 de #yFuerza, #b1 de #yDestreza, y #b1 de #yConcentración."
+    ]
+  },
+  "${modID}:ElevenGallonHat": {
+    "NAME": "Sombrero de Once Galones",
+    "FLAVOR": "Suficiente \"yee-haw\" para todos.",
+    "DESCRIPTIONS": [
+      "La primera vez que activas un efecto #yhermit:En_el_Blanco cada turno, un aliado aleatorio gana [E] ."
+    ]
+  },
+  "${modID}:CursedChest": {
+    "NAME": "Cofre Maldito",
+    "FLAVOR": "Una caja rústica de preciosas baratijas... con una historia sórdida.",
+    "DESCRIPTIONS": [
+      "Cada vez que recibas una #yMaldición a través del comercio, gana #b60 de #yOro."
+    ]
+  }
+}

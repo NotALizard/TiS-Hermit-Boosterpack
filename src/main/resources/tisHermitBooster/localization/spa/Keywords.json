@@ -1,0 +1,17 @@
+[
+  {
+    "PROPER_NAME": "Avara",
+    "NAMES": [
+      "Avara"
+    ],
+    "DESCRIPTION": "Aliados bajo los efectos de su propia copia de esta carta quedan excluidos de los efectos de esta carta."
+  },
+  {
+    "PROPER_NAME": "Armadura de Placas",
+    "NAMES": [
+      "Armadura de Placas",
+      "Armadura_Placas"
+    ],
+    "DESCRIPTION": "Otorga bloqueo al final de tu turno. Recibir daño de ataque sin bloquear reduce la cantidad en 1."
+  }
+]

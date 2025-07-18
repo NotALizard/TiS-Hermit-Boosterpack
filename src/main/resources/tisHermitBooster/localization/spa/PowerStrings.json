@@ -1,0 +1,34 @@
+{
+  "${modID}:ShootoutSenderPower": {
+    "NAME": "Participante del Tiroteo",
+    "DESCRIPTIONS": [
+      "Transfiere TODOS los Golpe y Defender que juegues este turno a tu aliado."
+    ]
+  },
+  "${modID}:ShootoutRecipientPower": {
+    "NAME": "Tiroteo",
+    "DESCRIPTIONS": [
+      "TODOS los Golpe y Defender que tus aliados jueguen este turno se Transfieren a ti. Te cuestan 0 en este turno."
+    ]
+  },
+  "${modID}:ShootoutPlusRecipientPower": {
+    "NAME": "Tiroteo+",
+    "DESCRIPTIONS": [
+      "TODOS los Golpe y Defender que tus aliados jueguen este turno se Transfieren a ti y Mejoran. Te cuestan 0 en este turno."
+    ]
+  },
+  "${modID}:FrontierJusticePower": {
+    "NAME": "Justicia Fronteriza",
+    "DESCRIPTIONS": [
+      "Cada vez que se te aplica un perjuicio, aplica 1 Artefacto a un aliado aleatorio.",
+      "Cada vez que se te aplica un perjuicio, aplica 1 Artefacto a un aliado aleatorio ",
+      " veces."
+    ]
+  },
+  "${modID}:NewSheriffPower": {
+    "NAME": "Nuevo Sheriff",
+    "DESCRIPTIONS": [
+      "Hay un nuevo sheriff en el pueblo. NL Estás provocando a un enemigo hasta el comienzo de tu próximo turno."
+    ]
+  }
+}

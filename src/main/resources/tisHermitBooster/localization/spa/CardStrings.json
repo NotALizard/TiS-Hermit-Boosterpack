@@ -1,0 +1,74 @@
+{
+  "${modID}:HiredGun": {
+    "NAME": "Pistolero Contratado",
+    "DESCRIPTION": "Haz !D! de daño. NL hermit:En_el_Blanco: Si lo juega una clase distinta a la de Ermitaño, gana 1 hermit:Robustez. NL Agota.",
+    "UPGRADE_DESCRIPTION": "Haz !D! de daño. NL hermit:En_el_Blanco: Si lo juega una clase distinta a la de Ermitaño, gana 1 hermit:Robustez."
+  },
+  "${modID}:Diversion": {
+    "NAME": "Diversión",
+    "DESCRIPTION": "Retiene. NL Aplica 2 *Provocación a un enemigo. NL Todos los aliados roban !M! carta y hermit:Concentrado. NL Agota.",
+    "UPGRADE_DESCRIPTION": "Retiene. NL Aplica 2 *Provocación a un enemigo. NL Todos los aliados roban !M! cartas y hermit:Concentrado. NL Agota."
+  },
+  "${modID}:HeistPlan": {
+    "NAME": "Plan de Atraco",
+    "DESCRIPTION": "Baraja una *Diversión en la pila de extracción de TODOS los jugadores en la sala. NL Agota.",
+    "UPGRADE_DESCRIPTION": "Innata. NL Baraja una *Diversión en la pila de extracción de TODOS los jugadores en la sala. NL Agota."
+  },
+  "${modID}:DealersChoice": {
+    "NAME": "Elección del Crupier",
+    "DESCRIPTION": "TODOS tus aliados roban X cartas. NL hermit:En_el_Blanco: TODOS tus aliados ganan [E]. NL Agota.",
+    "UPGRADE_DESCRIPTION": "TODOS tus aliados roban X+1 cartas. NL hermit:En_el_Blanco: TODOS tus aliados ganan [E]. NL Agota."
+  },
+  "${modID}:Scapegoat": {
+    "NAME": "Chivo Expiatorio",
+    "DESCRIPTION": "*Transfiere una Maldición aleatoria de la pila de extracción de cada aliado a tu mano. Gana 1 hermit:Robustez por cada Maldición recibida. NL Agota.",
+    "UPGRADE_DESCRIPTION": "Innata. NL *Transfiere una Maldición aleatoria de la pila de extracción de cada aliado a tu mano. Gana 1 hermit:Robustez por cada Maldición recibida. NL Agota."
+  },
+  "${modID}:Shootout": {
+    "NAME": "Tiroteo",
+    "DESCRIPTION": "${modID}:Avara. NL TODOS los Golpe y Defender que tus aliados jueguen este turno se *Transfieren a ti. Te cuestan 0 en este turno.",
+    "UPGRADE_DESCRIPTION": "${modID}:Avara. NL TODOS los Golpe y Defender que tus aliados jueguen este turno se *Transfieren a ti y *Mejoran. Te cuestan 0 en este turno."
+  },
+  "${modID}:Barfight": {
+    "NAME": "Pelea de Bar",
+    "DESCRIPTION": "Aplica !M! hermit:Herida a TODOS los enemigos y jugadores en la sala.",
+    "UPGRADE_DESCRIPTION": "Aplica !M! hermit:Herida a TODOS los enemigos. NL Aplica 3 hermit:Herida a TODOS los jugadores en la sala."
+  },
+  "${modID}:FrontierJustice": {
+    "NAME": "Justicia Fronteriza",
+    "DESCRIPTION": "Cada vez que se te aplica un perjuicio, aplica 1 Artefacto a un aliado aleatorio.",
+    "UPGRADE_DESCRIPTION": "Innata. NL Cada vez que se te aplica un perjuicio, aplica 1 Artefacto a un aliado aleatorio."
+  },
+  "${modID}:DesertRain": {
+    "NAME": "Lluvia del Desierto",
+    "DESCRIPTION": "TODOS los jugadores curan PV igual a 1 veces la cantidad de tus Maldiciones agotada. NL Agota.",
+    "EXTENDED_DESCRIPTION": [
+      " NL (Cura ",
+      " PV.)"
+    ]
+  },
+  "${modID}:HoldEm": {
+    "NAME": "Hold 'Em",
+    "DESCRIPTION": "TODOS los jugadores en la sala pierden 1 de Destreza y ganan !M! de ${modID}:Armadura_Placas. NL Agota."
+  },
+  "${modID}:FalseGrit": {
+    "NAME": "Falso Valor",
+    "DESCRIPTION": "CADA aliado obtiene beneficios según sus perjuicios: NL !M! de Fuerza si es Débil. NL !M! de Destreza si es *Frágil. NL 1 de hermit:Robustez si es Vulnerable."
+  },
+  "${modID}:UglyBusiness": {
+    "NAME": "Asunto Feo",
+    "DESCRIPTION": "Haz !D! de daño. NL Aplica !M! de Débil y !M! *Frágil a un aliado aleatorio."
+  },
+  "${modID}:NewSheriff": {
+    "NAME": "Nuevo Sheriff",
+    "DESCRIPTION": "Aplica !M! *Provocación a un enemigo hasta el siguiente turno. NL hermit:En_el_Blanco: Gana 1 hermit:Robustez. NL Agota."
+  },
+  "${modID}:BlackSand": {
+    "NAME": "Arena Negra",
+    "DESCRIPTION": "Etérea. NL TODOS tus aliados ganan bloqueo igual a tus PV faltantes. NL Agota.",
+    "UPGRADE_DESCRIPTION": "Etérea. NL TODOS los jugadores en la sala ganan bloqueo igual a tus PV faltantes. NL Agota.",
+    "EXTENDED_DESCRIPTION": [
+      " NL (!B! Bloqueo.)"
+    ]
+  }
+}
