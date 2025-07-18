@@ -2,23 +2,23 @@
   "${modID}:ShootoutSenderPower": {
     "NAME": "Shootout Participant",
     "DESCRIPTIONS": [
-      "Transfer away all Strikes and Defends you play this turn."
+      "Transfer away ALL Strikes and Defends you play this turn."
     ]
   },
   "${modID}:ShootoutRecipientPower": {
     "NAME": "Shootout",
     "DESCRIPTIONS": [
-      "All Strikes and Defends allies play this turn Transfer to you. They cost 0 for you this turn."
+      "ALL Strikes and Defends allies play this turn Transfer to you. They cost 0 for you this turn."
     ]
   },
   "${modID}:ShootoutPlusRecipientPower": {
     "NAME": "Shootout+",
     "DESCRIPTIONS": [
-      "All Strikes and Defends allies play this turn Transfer to you and Upgrade. They cost 0 for you this turn."
+      "ALL Strikes and Defends allies play this turn Transfer to you and Upgrade. They cost 0 for you this turn."
     ]
   },
   "${modID}:FrontierJusticePower": {
-    "NAME": "FrontierJusticePower",
+    "NAME": "Frontier Justice",
     "DESCRIPTIONS": [
       "Whenever a debuff is applied to you, apply 1 Artifact to a random ally.",
       "Whenever a debuff is applied to you, apply 1 Artifact to a random ally ",
