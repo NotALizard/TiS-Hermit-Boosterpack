@@ -1,0 +1,84 @@
+{
+  "tisHermitBooster:ExampleCard": {
+    "NAME": "Name",
+    "DESCRIPTION": "Description. NL Second line.",
+    "UPGRADE_DESCRIPTION": "This will automatically be used if the card is upgraded. Remove it if unneeded.",
+    "EXTENDED_DESCRIPTION": [
+      "You can put more text in here.",
+      "If you need to use it for stuff.",
+      "Blizzard is a good example for this."
+    ]
+  },
+  "tisHermitBooster:HiredGun": {
+    "NAME": "枪支租赁",
+    "DESCRIPTION": "造成 !D! 伤害。 NL hermit:精准 : 如果由亡命之徒之外的角色使用， 获得 1 层 hermit:坚固 。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "造成 !D! 伤害。 NL hermit:精准 : 如果由亡命之徒之外的角色使用， 获得 1 层 hermit:坚固 。"
+  },
+  "tisHermitBooster:Diversion": {
+    "NAME": "吸引注意",
+    "DESCRIPTION": " 保留 。 NL 给予敌人 2 tiscardpack:嘲讽 。 NL 所有队友抽 !M! 张牌并且亡命之徒获得 hermit:专注 。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": " 保留 。 NL 给予敌人 2 tiscardpack:嘲讽 。 NL 所有队友抽 !M! 张牌并且亡命之徒获得 hermit:专注 。 NL 消耗 。"
+  },
+  "tisHermitBooster:HeistPlan": {
+    "NAME": "抢劫计划",
+    "DESCRIPTION": "将1张 *转移注意 放入所有玩家的抽牌堆中。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": " 固有 。 NL 将1张 *转移注意 放入所有玩家的抽牌堆中。 NL 消耗 。"
+  },
+  "tisHermitBooster:DealersChoice": {
+    "NAME": "任君选择",
+    "DESCRIPTION": "所有队友抽 X 张牌。 NL hermit:精准 : 所有队友获得 [E] 。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "所有队友抽 X+1 张牌。 NL hermit:精准 : 所有队友获得 [E] 。 NL 消耗 。"
+  },
+  "tisHermitBooster:Scapegoat": {
+    "NAME": "替罪羔羊",
+    "DESCRIPTION": " tiscardpack:转让 所有玩家抽牌堆中的1张诅咒牌到你手中。每张诅咒牌使你获得 1 层 hermit:坚固 。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": " 固有 。 NL tiscardpack:转让 所有玩家抽牌堆中的1张诅咒牌到你手中。每张诅咒牌使你获得 1 层 hermit:坚固 。 NL 消耗 。"
+  },
+  "tisHermitBooster:Shootout": {
+    "NAME": "交叉火力",
+    "DESCRIPTION": " 该卡牌的使用者不计入该卡牌的作用目标范围。 NL 这个回合所有使用过的打击和防御 tiscardpack:转让 给打出这张卡的角色。 这些牌在本回合耗能变为 0 。",
+    "UPGRADE_DESCRIPTION": " 该卡牌的使用者不计入该卡牌的作用目标范围。 NL 这个回合所有使用过的打击和防御 tiscardpack:转让 给打出这张卡的角色并升级。 这些牌在本回合耗能变为 0 。"
+  },
+  "tisHermitBooster:Barfight": {
+    "NAME": "酒馆乱斗",
+    "DESCRIPTION": "给予所有单位 !M! 点 hermit:瘀伤 。",
+    "UPGRADE_DESCRIPTION": "给予所有敌人 !M! 层 hermit:瘀伤 。 NL 给予所有队友 3 层 hermit:瘀伤 。"
+  },
+  "tisHermitBooster:FrontierJustice": {
+    "NAME": "边疆正义",
+    "DESCRIPTION": "当你获得负面效果时, 给随机队友 1 层 人工制品 。",
+    "UPGRADE_DESCRIPTION": " 固有 。 NL 当你获得负面效果时, 给随机队友 1 层 人工制品 。"
+  },
+  "tisHermitBooster:DesertRain": {
+    "NAME": "绝处逢生",
+    "DESCRIPTION": "所有玩家回复等同于消耗堆中诅咒牌数量的生命 !M! 次。 NL 消耗 。",
+    "EXTENDED_DESCRIPTION": [
+      " NL (回复",
+      " 点血量.)"
+    ]
+  },
+  "tisHermitBooster:HoldEm": {
+    "NAME": "生死赌局",
+    "DESCRIPTION": "所有玩家失去一点 敏捷 并获得 !M! 层 *多层护甲 。 NL 消耗 。"
+  },
+  "tisHermitBooster:FalseGrit": {
+    "NAME": "虚张'生'势",
+    "DESCRIPTION": "每个队友根据已有的负面效果获得增益： NL 如果 虚弱 则获得 !M! 点 力量 。 NL 如果 脆弱 则获得 !M! 点 敏捷 。 NL 如果 易伤 则获得 1 点 hermit:坚固 。"
+  },
+  "tisHermitBooster:UglyBusiness": {
+    "NAME": "丑恶勾当",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 给予随机一名队友 !M! 点 虚弱 和 !M! 点 脆弱 。"
+  },
+  "tisHermitBooster:NewSheriff": {
+    "NAME": "新官上任",
+    "DESCRIPTION": "直到下回合开始，给予 !M! 点 tiscardpack:嘲讽 。 NL hermit:精准 : 获得 1 点 hermit:坚固 。 NL 消耗 。"
+  },
+  "tisHermitBooster:BlackSand": {
+    "NAME": "暗沙迷踪",
+    "DESCRIPTION": " 虚无 。 NL 所有队友获得等同于你当前损失生命值数量的格挡。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": " 虚无 。 NL 所有玩家获得等同于你当前损失生命值数量的格挡。 NL 消耗 。",
+    "EXTENDED_DESCRIPTION": [
+      " NL ( !B! 点格挡。)"
+    ]
+  }
+}

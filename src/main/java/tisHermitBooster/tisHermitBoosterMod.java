@@ -147,6 +147,8 @@ public class tisHermitBoosterMod implements
     }
 
     private void registerKeyword(KeywordInfo info) {
+        BaseMod.addKeyword("tisHermitBooster", "贪婪", new String[]{"贪婪"}, "该卡牌的使用者不计入该卡牌的作用目标范围。");
+        BaseMod.addKeyword("tisHermitBooster", "多层护甲", new String[]{"多层护甲"}, "在你的回合结束时获得等同于层数的格挡 。受到攻击伤害而失去生命时， 多层护甲的层数将会减少 1 。");
         BaseMod.addKeyword(modID.toLowerCase(), info.PROPER_NAME, info.NAMES, info.DESCRIPTION);
         if (!info.ID.isEmpty())
         {

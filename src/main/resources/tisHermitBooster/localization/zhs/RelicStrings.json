@@ -1,0 +1,23 @@
+{
+  "tisHermitBooster:WantedPoster": {
+    "NAME": "通缉海报",
+    "FLAVOR": "只要价格合适，即使是最邪恶的坏蛋也能被找到。",
+    "DESCRIPTIONS": [
+      "当你对队友施加一层负面效果时，他们也会获得1点 力量 ，1点 敏捷 ，和1点 集中 。"
+    ]
+  },
+  "tisHermitBooster:ElevenGallonHat": {
+    "NAME": "超大牛仔帽",
+    "FLAVOR": "让'咦哈'响彻云端!",
+    "DESCRIPTIONS": [
+      "每回合第一次触发 #yhermit:精准 时，随机一名队友获得 [E] 。"
+    ]
+  },
+  "tisHermitBooster:CursedChest": {
+    "NAME": "诅咒宝箱",
+    "FLAVOR": "表面是一个普通的箱子，里面反射出肮脏的历史",
+    "DESCRIPTIONS": [
+      "无论何时通过交易获得 #y诅咒 ，获得 #b60 #y金币 。"
+    ]
+  }
+}
