@@ -16,8 +16,8 @@
   },
   "tisHermitBooster:Diversion": {
     "NAME": "吸引注意",
-    "DESCRIPTION": " 保留 。 NL 给予敌人 2 tiscardpack:嘲讽 。 NL 所有队友抽 !M! 张牌并且亡命之徒获得 hermit:专注 。 NL 消耗 。",
-    "UPGRADE_DESCRIPTION": " 保留 。 NL 给予敌人 2 tiscardpack:嘲讽 。 NL 所有队友抽 !M! 张牌并且亡命之徒获得 hermit:专注 。 NL 消耗 。"
+    "DESCRIPTION": " 保留 。 NL 给予敌人 2 tiscardpack:嘲讽 。 NL 所有队友抽 !M! 张牌并且获得 hermit:专注 。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": " 保留 。 NL 给予敌人 2 tiscardpack:嘲讽 。 NL 所有队友抽 !M! 张牌并且获得 hermit:专注 。 NL 消耗 。"
   },
   "tisHermitBooster:HeistPlan": {
     "NAME": "抢劫计划",
