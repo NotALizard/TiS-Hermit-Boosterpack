@@ -1,6 +1,7 @@
 package tisHermitBooster.powers;
 
 import com.evacipated.cardcrawl.mod.stslib.powers.interfaces.OnReceivePowerPower;
+import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.AbstractCreature;
 import com.megacrit.cardcrawl.powers.AbstractPower;
 import com.megacrit.cardcrawl.powers.ArtifactPower;
@@ -19,11 +20,14 @@ public class FrontierJusticePower extends BasePower implements OnReceivePowerPow
     }
 
     public boolean onReceivePower(AbstractPower power, AbstractCreature target, AbstractCreature source) {
-        if (power.type == PowerType.DEBUFF) {
-            for(int i = 0; i < this.amount; i++){
-                P2PPlayer np = Players.GetRandomPlayer(true, true);
-                if(np == null) return true;
-                np.addPower(new ArtifactPower(owner, 1));
+        if(this.owner instanceof AbstractPlayer){
+            //Only want to eval this power on the character owner's client so that the list of "other players" is accurate
+            if (power.type == PowerType.DEBUFF) {
+                for(int i = 0; i < this.amount; i++){
+                    P2PPlayer np = Players.GetRandomPlayer(true, true);
+                    if(np == null) return true;
+                    np.addPower(new ArtifactPower(owner, 1));
+                }
             }
         }
         return true;
