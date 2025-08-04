@@ -2,33 +2,33 @@
   "tisHermitBooster:ShootoutSenderPower": {
     "NAME": "交战参与者",
     "DESCRIPTIONS": [
-      "转让你这个回合打出的所有打击和防御。"
+      "转让出这个回合打出的所有打击和防御。"
     ]
   },
   "tisHermitBooster:ShootoutRecipientPower": {
     "NAME": "交战",
     "DESCRIPTIONS": [
-      "所有队友打出的打击和防御转让给你，这些牌在本回合耗能变为 0 。"
+      "获得所有队友打出的打击和防御，这些牌在本回合耗能变为 0 。"
     ]
   },
   "tisHermitBooster:ShootoutPlusRecipientPower": {
     "NAME": "交战+",
     "DESCRIPTIONS": [
-      "所有队友打出的打击和防御转让给你并升级，这些牌在本回合耗能变为 0 。"
+      "升级并获得所有队友打出的打击和防御，这些牌在本回合耗能变为 0 。"
     ]
   },
   "tisHermitBooster:FrontierJusticePower": {
     "NAME": "边疆正义",
     "DESCRIPTIONS": [
-      "当你获得负面效果时， 给随机队友 1 层人工制品。",
-      "当你获得负面效果时， 给随机队友 1 层人工制品。",
+      "当获得负面效果时， 给予随机队友 1 层人工制品。",
+      "当获得负面效果时， 给予随机队友 1 层人工制品。",
       " times."
     ]
   },
   "tisHermitBooster:NewSheriffPower": {
     "NAME": "新官上任",
     "DESCRIPTIONS": [
-      "高塔来了位新警长。 NL 直到下回合开始，你都会在嘲讽那个敌人。"
+      "高塔来了位新警长。 NL 嘲讽一名敌人持续至下回合开始。"
     ]
   }
 }
